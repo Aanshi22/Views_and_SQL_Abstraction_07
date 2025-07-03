@@ -27,10 +27,15 @@ This project demonstrates how to create and use **SQL Views** for **data abstrac
 
 ##  Files Included
 
-| File Name                    | Description                                              |
-|-----------------------------|----------------------------------------------------------|
-| `ecommerce_database.sql`    | SQL script to create and populate the E-commerce database |
-| `Task_07_Creating_Views.sql`| View definitions, queries using views, and drop statements |
+| File Name                                      | Description                                               |
+| ---------------------------------------------- | --------------------------------------------------------- |
+| `ecommerce_database.sql`                       | Script to create and populate the E-commerce database     |
+| `Views_and_SQL_Abstraction_07.sql`             | View definitions, view-based queries, and drop statements |
+| `Total paid by each customer_07.csv`           | Output for customer summary view                          |
+| `Most sold products_07.csv`                    | Output for product sales summary                          |
+| `Recent delivery items _07.csv`                | Output for delivered orders view                          |
+| `List of active payments above ₹10,000_07.csv` | Output for filtered payments view                         |
+| `ER_Diagram.png`                               | Visual schema of the database (optional)                  |
 
 ---
 
