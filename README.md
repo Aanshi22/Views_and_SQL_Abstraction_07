@@ -64,7 +64,7 @@ LEFT JOIN Payment p ON o.order_id = p.order_id AND p.status = 'Paid'
 GROUP BY c.customer_id, c.name; ``
 
 ### 2. Product Sales Summary
-```
+``
 CREATE VIEW product_sales_summary AS
 SELECT 
     p.product_id,
@@ -74,7 +74,7 @@ SELECT
 FROM Product p
 JOIN OrderItem oi ON p.product_id = oi.product_id
 GROUP BY p.product_id, p.name;
-```
+``
 ### 3. Delivered Orders View
 `` CREATE VIEW delivered_orders AS
 SELECT 
