@@ -1,0 +1,4 @@
+payment_id,order_id,customer_name,payment_method,amount,status
+1,1,"Aman Sharma",UPI,62197.00,Paid
+2,2,"Priya Verma","Credit Card",23999.00,Paid
+4,4,"Sneha Reddy",UPI,10598.00,Paid
